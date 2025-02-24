@@ -1,0 +1,17 @@
+header{
+    background-color: blanchedalmond;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Bold , Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif,bold;
+    font-size: 25px;
+    color: red;
+    text-align: center;
+}
+.theP{
+    font-family: Times New Roman, Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
