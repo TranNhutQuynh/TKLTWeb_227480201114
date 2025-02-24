@@ -1,7 +1,9 @@
-.header{
-    display: inline-block;
-    align-items: start;
+.header {
+    display: flex;
+    justify-content: space-between; /* Căn chỉnh các block cách đều nhau */
+    align-items: flex-start; /* Căn chỉnh các block lên trên cùng */
 }
-.header .block1{
-    padding: 30px;
+
+.block1, .block2 {
+    margin: 10px; /* Thêm một chút khoảng cách nếu cần */
 }
