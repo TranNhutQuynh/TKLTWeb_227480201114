@@ -1,0 +1,7 @@
+.header{
+    display: inline-block;
+    align-items: start;
+}
+.header .block1{
+    padding: 30px;
+}
