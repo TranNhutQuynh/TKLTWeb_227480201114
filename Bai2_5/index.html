@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 2.6</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <!--Phần Đầu Trang-->
+      <header>
+        <b>Đăng ký thể thao</b>
+      </header>
+
+      <div class="theP">
+        <!--Thẻ 1-->
+        <p class="p1">
+          <b>TRƯỜNG ĐẠI HỌC BẠC LIÊU</b><br />
+          KHOA KỸ THUẬT VÀ CÔNG NGHỆ
+        </p>
+        <!--Thẻ 2-->
+        <p class="p2">
+          <b>CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</b><br />
+          Độc lập - Tự do - Hạnh phúc
+        </p>
+      </div>
+    </div>
+
+    <!--Phần nội dung chính-->
+    <div class="content">
+      <!--Tiêu Đề và Ảnh-->
+      <h1>PHIẾU ĐĂNG KÝ DỰ THI THỂ THAO</h1>
+      <img
+        id="anh"
+        src="https://blu.edu.vn/admin/Uploads/Images/2024/11/logoBLUNI_8648350e-1989-4408-b863-53b1ecfa6108.png"
+        alt="Hình ảnh minh hoạ"
+      />
+      <!--Thông tin-->
+      <div class="Thongtin">
+        <div>
+          <label for="hoten">Họ và Tên: </label>
+          <input id="hoten" type="text" value="" placeholder="Nhập họ và tên" />
+        </div>
+
+        <div>
+          <label for="matkhau">Mật Khẩu: </label>
+          <input
+            id="matkhau"
+            type="text"
+            value=""
+            placeholder="Nhập mật khẩu"
+          />
+        </div>
+      </div>
+
+      <!--Môn thể thao-->
+      <div class="theThao">
+        <label for="monthethao">Môn Thể Thao: </label>
+        <div>
+          <input id="bongda" type="checkbox" name="ckc1" value="" />
+          <label for="bongda">Bóng đá</label>
+        </div>
+
+        <div>
+          <input id="bongchuyen" type="checkbox" name="ckb2" value />
+          <label for="bongchuyen">Bóng chuyền</label>
+        </div>
+
+        <div>
+          <input id="dienkinh" type="checkbox" name="ckb3" value="" />
+          <label for="dienkinh">Điền kinh</label>
+        </div>
+
+        <div>
+          <input id="boiloi" type="checkbox" name="ckb4" value="" />
+          <label for="boiloi">Bơi lội</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

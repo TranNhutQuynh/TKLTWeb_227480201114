@@ -1,0 +1,56 @@
+/*Phần đầu*/
+header {
+  background-color: aqua;
+  color: red;
+  font-size: 20px;
+  padding: 20px;
+  border: solid 2px green;
+}
+.theP {
+  display: flex;
+  justify-content: space-between;
+}
+.p2 {
+  text-align: center;
+}
+/*Phần thân*/
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content h1 {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#anh {
+  width: 200px;
+  height: 100px;
+  object-fit: fill;
+  align-self: flex-start;
+}
+.content label {
+  font-size: 20px;
+}
+#matkhau,
+#hoten {
+  width: 200px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.theThao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Căn các phần tử con bên trong theo bên trái */
+  align-self: flex-start; /* Đưa container .theThao về bên trái so với container cha */
+  width: 100%;
+}
+#bongda,
+#bongchuyen,
+#dienkinh,
+#boiloi {
+  margin-left: 25px;
+}
