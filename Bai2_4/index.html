@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký dự thi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <b>Đăng ký dự thi</b>
+    </header>
+
+    <div class="theP">
+      <p class="p1">
+        <b>
+          TRƯỜNG ĐẠI HỌC BẠC LIỆU <br />
+          KHOA KỸ THUẬT VÀ CÔNG NGHỆ
+        </b>
+      </p>
+      <p class="p2">
+        <b>CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</b> <br />
+        Độc lập - Tự do - Hạnh phúc
+      </p>
+    </div>
+
+    <h1>ĐĂNG KÝ XÉT TUYỂN</h1>
+
+    <div class="content">
+      <!-- Dòng Họ và Tên -->
+      <div class="row">
+        <label for="name">Họ và Tên:</label>
+        <input type="text" id="name" placeholder="Nhập Họ và Tên" />
+      </div>
+
+      <!-- Dòng Giới Tính -->
+      <div class="row">
+        <label for="gt">Giới Tính:</label>
+        <div class="input-group">
+          <input type="radio" id="nam" value="1" name="gioitinh" checked />
+          <label for="nam">Nam</label>
+          <input type="radio" id="nu" value="0" name="gioitinh" />
+          <label for="nu">Nữ</label>
+        </div>
+      </div>
+
+      <!-- Dòng Ngành Thi: sử dụng lớp "nganh" để chuyển sang cột -->
+      <div class="row nganh">
+        <label>Ngành Thi:</label>
+        <div class="input-group">
+          <!--Công nghệ thông tin-->
+          <div>
+            <input type="radio" id="cntt" value="1" name="nganh" checked />
+            <label for="cntt">Công nghệ thông tin</label>
+          </div>
+          <!--Mầm non-->
+          <div>
+            <input type="radio" id="mamnon" value="0" name="nganh" />
+            <label for="mamnon">Mầm non</label>
+          </div>
+          <!--Âm nhạc-->
+          <div>
+            <input type="radio" id="amnhac" value="0" name="nganh" />
+            <label for="amnhac">Âm nhạc</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nut">
+      <button class="nut1">Đồng ý</button>
+      <button class="nut2">Không đồng ý</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+/* Header và thông tin trường */
+header {
+  background-color: aqua;
+  font-size: 30px;
+  color: red;
+}
+
+.theP {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.p1,
+.p2 {
+  margin: 20px 50px;
+}
+
+.p2 {
+  text-align: center;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+
+/* Căn giữa form trên màn hình */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Căn giữa theo chiều ngang */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  gap: 15px; /* Khoảng cách giữa các dòng */
+  min-height: 50vh; /* Chiều cao tối thiểu bằng màn hình */
+}
+
+/* Mỗi dòng của form */
+.row {
+  display: flex;
+  align-items: center;
+  width: 500px; /* Chiều rộng cố định cho dòng */
+}
+
+/* Dòng Ngành Thi: chuyển hướng thành cột để nhãn và các radio không nằm chung dòng */
+.row.nganh {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Nhãn có chiều rộng cố định cho các dòng (trừ dòng Ngành Thi, khi đó nhãn chiếm hết chiều rộng tự nhiên) */
+.row:not(.nganh) label {
+  width: 150px;
+  text-align: left;
+}
+
+/* Nhóm input chung cho các radio */
+.input-group {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+/* Style cho các label bên cạnh radio */
+.input-group label {
+  cursor: pointer;
+}
+.nut {
+  display: flex;
+  justify-content: flex-start;
+  gap: 210px;
+  margin-left: 500px;
+  width: 400px;
+  height: 30px;
+}
