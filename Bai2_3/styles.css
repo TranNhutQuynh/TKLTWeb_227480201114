@@ -1,9 +1,45 @@
+/* Định dạng Header */
 .header {
-    display: flex;
-    justify-content: space-between; /* Căn chỉnh các block cách đều nhau */
-    align-items: flex-start; /* Căn chỉnh các block lên trên cùng */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.block1, .block2 {
-    margin: 10px; /* Thêm một chút khoảng cách nếu cần */
+.block1,
+.block2 {
+  margin: 10px;
+}
+
+.block2 {
+  text-align: center;
+}
+
+/* Nội dung chính */
+.content h1,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  text-align: center;
+}
+
+.list {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* Định dạng danh sách môn thi */
+.exam-info {
+  margin: 0 40px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  gap: 20px;
+}
+
+.footer img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
 }
