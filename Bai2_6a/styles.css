@@ -1,0 +1,18 @@
+.header h1 {
+  text-align: center;
+}
+.header hr {
+  border: solid 1px green;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content label {
+  font-size: 20px;
+}
+.TB,
+.BH,
+.nut {
+  margin-top: 20px;
+}

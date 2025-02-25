@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 2.6a</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Tiêu đề-->
+    <div class="header">
+      <h1>PHẦN CỨNG MÁY TÍNH</h1>
+      <hr />
+    </div>
+
+    <!--Nội dung-->
+    <div class="content">
+      <!--Thiết bị-->
+      <div class="TB">
+        <label for="thietbi">Thiết bị:</label>
+        <select name="TB" id="thietbi">
+          <option value="1">CPU</option>
+          <option value="2">Mainboard</option>
+          <option value="3">ASUS DVD</option>
+          <option value="4">RAM KingMax</option>
+        </select>
+      </div>
+      <!--Thời gian bảo hành-->
+      <div class="BH">
+        <label for="baohanh">Thời gian bảo hành</label>
+        <select name="bh" id="baohanh">
+          <option value="1">Không bảo hành</option>
+          <option value="2">1 năm</option>
+          <option value="3">2 năm</option>
+        </select>
+      </div>
+      <!--Nút bấm-->
+      <div class="nut">
+        <button id="gui" onclick="alert('Gửi thành công')">
+          <u>S</u>ubmit
+        </button>
+        <button id="reset" onclick="window.location.reload()">
+          <u>R</u>eset
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
