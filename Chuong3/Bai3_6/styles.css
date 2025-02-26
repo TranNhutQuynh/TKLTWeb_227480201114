@@ -1,0 +1,23 @@
+body{
+    background-color: lightyellow;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+#ol1,
+#ol2,
+#ol3{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+}
+#ul2{
+    font-style: italic;
+}
+#theP,
+#ul2,
+#ul3{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
