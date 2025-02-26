@@ -1,0 +1,54 @@
+#pHeader{
+    background-color: red;
+    width: 270px;
+    padding: 5px;
+}
+.header{
+    text-align: center;
+}
+#the1{
+    text-align: justify;
+    margin-left: 20px;
+}
+#the2{
+    text-align: justify;
+}
+.ds #li1{
+    font-weight: bold;
+}
+.ds #ulNam2{
+    list-style-type: square;
+}
+.ulNam1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#p{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+#ulNam1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+.ulNam2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+.ulNam3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: black;
+}
+#ulNam3{
+    list-style-type: disc;
+}
+.totnghiep{
+    font-size: 13px;
+    color: red;
+}
