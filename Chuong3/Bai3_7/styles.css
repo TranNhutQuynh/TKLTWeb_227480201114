@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    width: 200px;
+    height: 220px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: aqua;
+}
+.intro{
+    padding: 10px;
+    border: 2px solid green;
+    background-color: lightcoral;
+}
+a{
+    margin-top: 10px;
+}
