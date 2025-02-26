@@ -1,0 +1,18 @@
+h2{
+    color: red;
+    text-align: center;
+}
+#p1{
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    background-color: blue;
+    margin: 0;
+}
+#p2{
+    font-size: 14px;
+    font-style: italic;
+    color: yellow;
+    background-color: brown;
+    margin: 0;
+}
