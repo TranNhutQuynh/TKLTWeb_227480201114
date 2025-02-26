@@ -1,0 +1,12 @@
+table,th,td{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 2px solid ;
+    border-collapse: collapse;
+}
+.row,
+#td1,
+#td2{
+    background-color: violet;
+}
