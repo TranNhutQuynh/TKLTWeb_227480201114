@@ -1,0 +1,23 @@
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+h3{
+    color:green;
+}
+#p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.theP{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: bold;
+}
+#p2{
+    background-color: yellow;
+}
