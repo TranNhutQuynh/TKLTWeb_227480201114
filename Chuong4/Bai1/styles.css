@@ -1,0 +1,76 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Định dạng header */
+  header {
+    background: orchid;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+  }
+  
+  /* Container chứa ô nhập, căn giữa theo chiều ngang */
+  .bai1A {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Container cho các ô nhập và nút hiển thị */
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Định dạng ô input */
+  .text input {
+    margin: 20px;
+    width: 250px;
+    height: 30px;
+  }
+  
+  /* Định dạng nút */
+  #btn {
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+  }
+  
+  /* Container hiển thị thông tin, căn giữa và giới hạn chiều rộng */
+  .infor {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  /* Định dạng tiêu đề */
+  .infor h1 {
+    color: red;
+  }
+  .infor h2 {
+    color: blue;
+  }
+  
+  /* Định dạng đoạn thông tin */
+  #p1, #p2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  #p1{
+    color: black;
+  }
+  #p2{
+    color: green;
+  }
+  #result_class,#result_name {
+    color:blueviolet;
+  }
