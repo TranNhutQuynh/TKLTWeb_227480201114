@@ -1,0 +1,21 @@
+/* Đặt cho toàn bộ trang */
+body {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+    height: 100vh;           /* Chiều cao của cửa sổ trình duyệt */
+    margin: 0;               /* Loại bỏ margin mặc định */
+  }
+  
+
+  .Time {
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 20px;
+    background: linear-gradient(45deg,#590A2f,#a6175a,#0fdbf2,#096873,#1bf2dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
