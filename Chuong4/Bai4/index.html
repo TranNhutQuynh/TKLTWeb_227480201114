@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Thông Tin</header>
+    <div class="container">
+        <div class="txt">
+            <!--Họ và tên-->
+            <div class="hoTen">
+                <label for="txtTen">Họ và Tên:</label>
+                <input id="txtTen" type="text">
+            </div>
+            <!--Đơn vị-->
+            <div class="donVi">
+                <label for="txtDonVi">Đơn Vị:</label>
+                <input id="txtDonVi" type="text">
+            </div>
+        </div>
+    <!--các nút chức năng-->
+        <div class="btn">
+            <button id="btnTen" onclick="cthoten()">Họ và Tên</button>
+            <button id="btnDonVi" onclick="ctdonvi()">Đơn Vị</button>
+        </div>
+    
+        <!--Hiển thị thông tin-->
+        <div class="thongTin">
+            <label for="lbThongTin">Hiển Thị Thông Tin</label>
+            <!--Họ và tin-->
+            <p>
+                Họ và Tên: 
+                <span id="ttTen"></span>
+            </p>
+            <!--Đơn vị-->
+            <p>
+                Đơn Vị:
+                <span id="ttDV"></span>
+            </p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
