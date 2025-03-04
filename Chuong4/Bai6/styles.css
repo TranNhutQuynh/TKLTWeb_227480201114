@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  font-size: 20px;
+  background: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Khoảng cách giữa các nhóm */
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  width: 250px; /* Chiều rộng cố định giúp các label căn chỉnh đều nhau */
+  text-align: left; /* Căn chữ sang phải để cách input hợp lý */
+}
+
+input,
+textarea {
+  width: 200px; /* Chiều rộng cho input và textarea */
+  padding: 5px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+#tinhtuoi {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #8afc5d, #e9793a, #de36f6, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
