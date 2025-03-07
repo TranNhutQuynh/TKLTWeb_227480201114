@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+textarea {
+  width: 200px;
+  height: 80px;
+  border: 3px solid #ff4792; /* Màu neon pink */
+  box-shadow: 0 0 5px #ff4792, 0 0 10px #ff4792, 0 0 20px #ff4792,
+    0 0 40px #ff4792;
+}
+
+button {
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
+}
