@@ -18,6 +18,7 @@ button {
   width: 200px;
   background: linear-gradient(45deg, #fcf340, #7fff00, #fb33db, #0310ae);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 button:hover {
