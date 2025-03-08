@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 12</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Nhập thông tin-->
+    <div class="container">
+      <label for="hoTen">Họ & Tên: </label>
+      <input type="text" name="hoTen" id="hoTen" />
+
+      <label for="namSinh">Năm Sinh: </label>
+      <input type="text" name="namSinh" id="namSinh" />
+
+      <button id="btn-hienThi" onclick="display()">Hiển thị</button>
+      <!--HIển thị thông tin đã nhập ra màn hình-->
+      <div class="hienThi">
+        <p>Họ & Tên: <span id="HoTen"></span></p>
+        <p>Năm Sinh:<span id="NamSinh"></span></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

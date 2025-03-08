@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+input {
+  width: 250px;
+  height: 30px;
+}
+button {
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 20px;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive;
+  color: rgb(14, 80, 212);
+}
+span {
+  color: white;
+}
+input:hover {
+  box-shadow: 0 0 5px #ff4792, 0 0 10px #ff4792, 0 0 20px #ff4792,
+    0 0 40px #ff4792;
+}
+button:hover {
+  box-shadow: 0 0 5px #cc00ff, 0 0 10px #cc00ff, 0 0 20px #cc00ff,
+    0 0 40px #cc00ff;
+}
