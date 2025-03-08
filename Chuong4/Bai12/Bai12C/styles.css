@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+input{
+    height:30px;
+    font-size: 20px;
+}
+#ketqua{
+    height: 80px;
+    width: 500px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+    background: linear-gradient(45deg,#75d5fd,#b76bfd,#ff2181,#011ffd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input:hover{
+    box-shadow: 0 0 5px #ff2181, 0 0 10px #ff2181,0 0 20px #ff2181,0 0 40px #ff2181;
+}
+button:hover{
+    box-shadow: 0 0 5px #ff2181, 0 0 10px #ff2181,0 0 20px #ff2181,0 0 40px #ff2181;
+}
