@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+  top: 30%;
+}
+input {
+  height: 40px;
+  width: 200px;
+}
+input:hover {
+  box-shadow: 0 0 10px rgb(255, 0, 255);
+}
+button {
+  width: 100px;
+}
+button:hover {
+  box-shadow: 0 0 10px rgb(255, 0, 255);
+}
+.nhap {
+  width: 100px;
+  text-align: center;
+  border: 1px solid red;
+  box-shadow: 0 0 10px rgb(255, 0, 255);
+}
