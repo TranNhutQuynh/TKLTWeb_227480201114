@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 14</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--Số hạng thứ nhất-->
+      <div class="form-group">
+        <label for="sohang1">Số hạng thứ 1:</label>
+        <input type="text" name="sohang1" id="sohang1" />
+      </div>
+      <!--Số Hạng thứ 2-->
+      <div class="form-group">
+        <label for="sohang2">Số hạng thứ 2:</label>
+        <input type="text" name="sohang2" id="sohang2" />
+      </div>
+      <!--Ô kết quả-->
+      <div class="form-group">
+        <label for="ketqua">Kết Quả:</label>
+        <input type="text" name="ketqua" id="ketqua" />
+      </div>
+      
+      <div class="radio-button">
+        <!--phép cộng-->
+        <input type="radio" name="pheptinh" id="cong" />
+        <label for="cong">Cộng</label>
+      <!--Phép trừ-->
+        <input type="radio" name="pheptinh" id="tru" />
+        <label for="tru">Trừ</label>
+      <!--phép nhân-->
+        <input type="radio" name="pheptinh" id="nhan" />
+        <label for="nhan">Nhân</label>
+      <!--phép chia-->
+        <input type="radio" name="pheptinh" id="chia" />
+        <label for="chia">Chia</label>
+      </div>
+
+      <button onclick="tinh()">Tính</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
