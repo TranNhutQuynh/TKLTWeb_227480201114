@@ -10,6 +10,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+label{
+  font-weight: bold;
+  font-size: 20px;
+}
 textarea {
   width: 200px;
   height: 80px;
