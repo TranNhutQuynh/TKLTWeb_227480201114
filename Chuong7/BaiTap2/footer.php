@@ -13,11 +13,9 @@
 <body>
     <!-- Footer -->
     <footer class="footer text-left">
-      <h2 class="h5 mb-2"><strong>TRƯỜNG ĐẠI HỌC BẠC LIÊU</strong></h2>
-      <p class="fw-bold mb-1">
-        <strong>
+      <h2 class="h5 mb-2" style="font-family: 'Times New Roman', Times, serif;font-weight: bold;">TRƯỜNG ĐẠI HỌC BẠC LIÊU</h2>
+      <p class="fw-bold mb-1" style="font-family: 'Times New Roman', Times, serif;font-weight: bold; font-size: 20px;">
             Chất lượng - Sáng tạo - Trách nhiệm - Hội nhập
-        </strong>
     </p>
       <p class="mb-1">Điện thoại: 0291 3822 653</p>
       <p class="mb-1">Email: mail@blu.edu.vn</p>
