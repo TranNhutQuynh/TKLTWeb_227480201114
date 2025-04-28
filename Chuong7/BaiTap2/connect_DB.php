@@ -3,7 +3,7 @@
     $user = "root";
     $pass = "";
     $databasename = "hosonhanvien";
-    $port = "3307";
+    $port = "3306";
 
     // Connect database
     $conn = mysqli_connect($servername,$user,$pass,$databasename,$port);
