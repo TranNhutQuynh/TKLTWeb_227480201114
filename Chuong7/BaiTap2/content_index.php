@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Quản Lý Nhân Sự - ĐH Bạc Liêu</title>
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+   <link rel="stylesheet" href="bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
@@ -40,7 +41,8 @@
     </article>
 
   <!-- Bootstrap JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script> -->
+   <script src="bootstrap.bundle.min.js"></script>
   <script>
     //toggles (có “s”) là biến chứa mảng các nút cần lắng nghe sự kiện.
     //toggle (không “s”) là tên phương thức để bật/tắt một class trên classList.

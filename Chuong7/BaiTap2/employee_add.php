@@ -1,6 +1,6 @@
 <?php
-  include "connect_DB.php";
-  include "functions.php";
+  require_once "connect_DB.php";
+  require_once "functions.php";
 
   if(isset($_POST['add'])){
     $manv = $_POST['manv'];
@@ -8,7 +8,6 @@
     $chucvu = $_POST['chucvu'];
     $sdt = $_POST['sdt'];
     $mail = $_POST['mail'];
-    $luong = $_POST['luong'];
 
     //Kiểm tra mã nhân viên
     $check_manv = $conn->prepare("SELECT manv FROM lylich WHERE manv = ?");
@@ -40,8 +39,8 @@
       showMessage("E-mail '".$mail."' đã tồn tại!", "danger",1000);
     }else{
       // Prepared Statements (Câu lệnh được chuẩn bị trước) 
-      $stmt = $conn->prepare("INSERT INTO lylich(manv,tennv,chucvu,sdt,mail,luong) VALUES(?,?,?,?,?,?)");
-      $stmt->bind_param("sssssd",$manv, $tennv, $chucvu, $sdt, $mail, $luong);
+      $stmt = $conn->prepare("INSERT INTO lylich(manv,tennv,chucvu,sdt,mail) VALUES(?,?,?,?,?)");
+      $stmt->bind_param("sssss",$manv, $tennv, $chucvu, $sdt, $mail);
       $result = $stmt->execute();
 
       if($result){
@@ -76,17 +75,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Quản Lý Nhân Sự - ĐH Bạc Liêu</title>
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="main-container d-grid">
     <!-- Header -->
-    <?php include "header.php"; ?>
+    <?php require_once "header.php"; ?>
 
     <!-- Sidebar + Content -->
-    <?php include "sidebar.php"; ?>
+    <?php require_once "sidebar.php"; ?>
     
     <!-- Form add employee -->
     <article>
@@ -98,17 +99,17 @@
                 <input class="form-control mb-2" type="text" name="chucvu" placeholder="Chức vụ" required>
                 <input class="form-control mb-2" type="text" name="sdt" placeholder="Số điện thoại" required>
                 <input class="form-control mb-2" type="text" name="mail" placeholder="E-Mail" required>
-                <input class="form-control mb-2" type="text" name="luong" placeholder="Lương" required>
                 <button class="btn btn-primary" type="submit" name="add">Thêm</button>
             </form>
         </section>
     </article>
 
     <!-- Footer -->
-    <?php include "footer.php"; ?>
+    <?php require_once "footer.php"; ?>
   </main>
   <!-- Bootstrap JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script> -->
+   <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
 <?php

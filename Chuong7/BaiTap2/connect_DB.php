@@ -1,4 +1,6 @@
 <?php
+    require_once "functions.php";
+
     $servername = "localhost";
     $user = "root";
     $pass = "";
@@ -10,8 +12,8 @@
 
     // Check Connect database
     if(!$conn){
-        echo "Kết nối THẤT BẠI! ".mysqli_connect_error();
+        showMessage("Kết nối thất bại! Lỗi: ".$conn->error,"danger",1000);
     }else{
-        echo "Kết nối THÀNH CÔNG!";
+        showMessage("Kết nối thành công!","success",1000);
     }
 ?>

@@ -1,17 +1,4 @@
 <?php
-    // Làm sạch dữ liệu đầu vào
-    function clean_input_data($data){
-        $data = trim($data);
-        $data = stripslashes($data);
-        $data = htmlspecialchars($data);
-        return $data;
-    }
-
-    // Xử lý escape string cho các truy vấn SQL
-    function escapestring($conn,$input){
-        return mysqli_real_escape_string($conn,$input);
-    }
-
     // Hiển thị thông báo
     // Hàm hiển thị thông báo ở giữa màn hình
 function showMessage($message, $type = 'success', $duration = 1000){

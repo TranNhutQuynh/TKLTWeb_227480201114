@@ -1,6 +1,6 @@
 <?php
-    include "connect_DB.php";
-    include "functions.php";
+    require_once "connect_DB.php";
+    require_once "functions.php";
 
     // Mặc định không hiển thị kết quả
     $result = null;
@@ -29,17 +29,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tìm kiếm</title>
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+   <link rel="stylesheet" href="bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="main-container d-grid">
     <!-- Header -->
-    <?php include "header.php"; ?>
+    <?php require_once "header.php"; ?>
 
     <!-- Sidebar + Content -->
-    <?php include "sidebar.php"; ?>
+    <?php require_once "sidebar.php"; ?>
     
     <!-- Form add employee -->
     <article>
@@ -85,9 +86,10 @@
     </article>
 
     <!-- Footer -->
-    <?php include "footer.php"; ?>
+    <?php require_once "footer.php"; ?>
   </main>
   <!-- Bootstrap JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script> -->
+   <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
