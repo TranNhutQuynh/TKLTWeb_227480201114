@@ -1,6 +1,6 @@
 <?php
-  require_once "connect_DB.php";
-  require_once "functions.php";
+  include "connect_DB.php";
+  include "functions.php";
 
 //   Lương trong tháng = Lương thỏa thuận / số ngày làm việc trong tháng x số ngày công thực tế
     if(isset($_POST['submit'])){
@@ -28,7 +28,6 @@
                 unset($_POST['luongcoban']);
                 unset($_POST['ngaylamchuan']);
                 unset($_POST['congthucte']);
-                unset($luong);
             }else{
                 showMessage("Tính lương THẤT BẠI! ".$conn->error,"danger",1000);
             }
@@ -53,10 +52,10 @@
 <body>
   <main class="main-container d-grid">
     <!-- Header -->
-    <?php require_once "header.php"; ?>
+    <?php include "header.php"; ?>
 
     <!-- Sidebar + Content -->
-    <?php require_once "sidebar.php"; ?>
+    <?php include "sidebar.php"; ?>
     
     <!-- Form add employee -->
     <article>
@@ -74,7 +73,7 @@
     </article>
 
     <!-- Footer -->
-    <?php require_once "footer.php"; ?>
+    <?php include "footer.php"; ?>
   </main>
   <!-- Bootstrap JS Bundle -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script> -->
